@@ -530,6 +530,15 @@ h4 {
     margin-bottom: 0.25rem;
 }
 
+
+
+/* Compact contact buttons */
+#contact .icon_some_large {
+    padding: 0.5em;
+    margin: 0.25em;
+    font-size: 16px;
+}
+
 /* Manage Display Headers for Mobile Devices */
 @media (max-width: 576px) {
     .display-1 {
