@@ -471,20 +471,12 @@ h4 {
     }
 
     .icon_large {
-        color: #285f88;
-        display: block;
-        text-align: center;
         padding: 0.5rem;
-        transition: all 0.3s ease;
         font-size: 2rem;
     }
     .icon_some_large {
-        color: #134f7d;
-        display: inline-block;
-        text-align: center;
         padding: 0.5em;
         margin: 0.25em;
-        transition: all 0.3s ease;
         font-size: 18px;
     }
 }
