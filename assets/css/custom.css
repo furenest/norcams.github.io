@@ -339,17 +339,11 @@ h4 {
 
 
 /* Offset anchors for links to adjust for fixed nav bar */
-:target {
-    display: block;
-    position: relative;
-    top: -72px; /* Matches navbar height */
-    visibility: hidden;
-    scroll-margin-top: 72px; /* Modern approach for anchor scrolling */
-  }
-  
-/* Add scroll margin to all section anchors */
-[id] {
-    scroll-margin-top: 72px;
+#services,
+#info,
+#contact,
+#about {
+    scroll-margin-top: 0px;
 }
 
 .logoBox {
