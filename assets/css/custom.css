@@ -173,7 +173,7 @@
 
 .icon_some_large:hover {
     color: #285f88;
-    transform: scale(1.1);
+    transform: none;
 }
 
 .icon_large {
@@ -537,6 +537,19 @@ h4 {
     padding: 0.5em;
     margin: 0.25em;
     font-size: 16px;
+}
+
+
+/* Contact links - behave like text, not buttons */
+#contact .icon_some_large {
+    user-select: text;
+    -webkit-user-select: text;
+    cursor: text;
+}
+
+#contact .icon_some_large:hover {
+    color: #285f88;
+    transform: none;
 }
 
 /* Manage Display Headers for Mobile Devices */
