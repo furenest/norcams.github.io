@@ -187,8 +187,8 @@
 }
 
 .icon_large:hover {
-    color: #1a365d;
-    transform: scale(1.05);
+    color: #285f88;
+    transform: none;
 }
 
 .minipadding {
@@ -476,8 +476,8 @@ h4 {
 }
 
 .card_style:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+    transform: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
 
 .card_style .card-body {
