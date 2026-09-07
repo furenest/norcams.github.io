@@ -10,13 +10,6 @@
     margin-bottom: 0;
 }
 
-/* Make banner background extend to top to eliminate white gap */
-.bg-primary.page-view {
-    margin-top: 0 !important;
-    padding-top: 55px !important; /* 72px navbar + 80px content */
-    position: relative;
-}
-
 /* Ensure no gap after banner */
 .page-view + * {
     margin-top: 0 !important;
@@ -37,8 +30,11 @@
     padding-top: 0 !important;
 }
 
-/* Special handling for banner to eliminate white gap */
+/* Banner: extend background up to cover gap behind fixed navbar */
 .bg-primary.page-view {
+    margin-top: 0 !important;
+    padding-top: 55px !important; /* 72px navbar + 80px content */
+    position: relative;
     overflow: visible;
     background: linear-gradient(135deg, #1a365d 0%, #2d3748 50%, #285f88 100%) !important;
 }
@@ -263,11 +259,6 @@ body {
     background-color: #ffffff;
 }
 
-/* Ensure banner starts at top with no white gap */
-.bg-primary.page-view {
-    margin-top: 0 !important;
-}
-
 p {
     margin-bottom: 1.25rem;
     color: #4a5568;
@@ -354,42 +345,12 @@ h4 {
 }
 
 /* Individual partner logo sizing - adjust as needed */
-.partner-logo-uio {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
-.partner-logo-uib {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
-.partner-logo-neic {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
-.partner-logo-naic {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
-.partner-logo-alice {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
-.partner-logo-atlas {
-    width: 125px;
-    height: auto;
-    max-height: 70px;
-}
-
+.partner-logo-uio,
+.partner-logo-uib,
+.partner-logo-neic,
+.partner-logo-naic,
+.partner-logo-alice,
+.partner-logo-atlas,
 .partner-logo-wlcg {
     width: 125px;
     height: auto;
@@ -466,16 +427,11 @@ h4 {
 
 
 
-/* Compact contact buttons */
+/* Compact contact links - behave like text, not buttons */
 #contact .icon_some_large {
     padding: 0.5em;
     margin: 0.25em;
     font-size: 16px;
-}
-
-
-/* Contact links - behave like text, not buttons */
-#contact .icon_some_large {
     user-select: text;
     -webkit-user-select: text;
     cursor: text;
