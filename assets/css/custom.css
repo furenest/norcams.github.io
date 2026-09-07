@@ -143,11 +143,6 @@
     border-bottom: none !important;
 }
 
-/*
-.icon_some_small {
-    color: #edf0fa;
-} */
-
 .icon_some_small:hover {
     color: #edf0fa;
 }
