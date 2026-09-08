@@ -296,14 +296,6 @@ h4 {
 }
 
 
-/* Offset anchors for links to adjust for fixed nav bar */
-#services,
-#info,
-#contact,
-#about {
-    scroll-margin-top: 0px;
-}
-
 /* Supporters logo */
 
 /* Partners Logos - Fixed width row with wrap */
