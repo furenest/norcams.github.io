@@ -10,11 +10,6 @@
     margin-bottom: 0;
 }
 
-/* Ensure no gap after banner */
-.page-view + * {
-    margin-top: 0 !important;
-}
-
 .page-view .container {
     width: 100%;
     max-width: 1200px;
@@ -218,7 +213,6 @@ html {
 }
 
 /* Remove any default margins that create white space */
-.bg-primary + .container,
 .page-view + .container {
     margin-top: 0 !important;
     padding-top: 4rem;
