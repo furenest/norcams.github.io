@@ -488,11 +488,6 @@ h4 {
 }
 
 
-@media (max-width: 350px) {
-    h3{
-        font-size: 1.1rem;
-    }
-}
 
 @media (max-width: 320px) {
 
