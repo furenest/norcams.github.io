@@ -10,13 +10,6 @@
     margin-bottom: 0;
 }
 
-.page-view .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .bg-primary {
     background: linear-gradient(135deg, #1a365d 0%, #2d3748 50%, #285f88 100%) !important;
     position: relative;
@@ -77,13 +70,6 @@
     min-height: 72px; /* Ensures consistent navbar height */
     width: 100%;
     margin: 0;
-}
-
-.navbar .container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .navbar-brand img {
