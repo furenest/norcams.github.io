@@ -20,11 +20,8 @@
 
 /* Banner: extend background up to cover gap behind fixed navbar */
 .bg-primary.page-view {
-    margin-top: 0 !important;
     padding-top: 55px !important; /* 72px navbar + 80px content */
-    position: relative;
     overflow: visible;
-    background: linear-gradient(135deg, #1a365d 0%, #2d3748 50%, #285f88 100%) !important;
 }
 
 /* Extend banner background up to cover white gap */
