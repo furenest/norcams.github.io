@@ -247,6 +247,29 @@ p {
     color: rgba(255, 255, 255, 1) !important;
 }
 
+/* Lift content above decorative overlays */
+.content-layer {
+    position: relative;
+    z-index: 1;
+}
+
+/* Hero heading */
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+/* Hero image */
+.hero-image {
+    border-radius: 12px;
+}
+
+/* Footer divider */
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
 h2 {
     margin-top: 2em;
     font-size: 2.75rem;
@@ -463,4 +486,18 @@ h4 {
     h3{
         font-size: 1rem;
     }
+}
+
+
+/* Branding colour swatches */
+.color-swatches {
+    font-size: 16px;
+    display: flex;
+    width: 70%;
+}
+
+.color-swatch {
+    flex: 1;
+    padding-top: 30px;
+    text-align: center;
 }
